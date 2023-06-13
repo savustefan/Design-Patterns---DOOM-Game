@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design Patterns - DOOM Game", "Design Patterns - DOOM Game.csproj", "{58001D47-5BFD-434F-8A67-82CDAFF9B6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOOM Game_TestProject", "..\DOOM Game_TestProject\DOOM Game_TestProject.csproj", "{36DA1D7C-A264-48D0-9A58-8C05DD0AEC8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58001D47-5BFD-434F-8A67-82CDAFF9B6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58001D47-5BFD-434F-8A67-82CDAFF9B6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58001D47-5BFD-434F-8A67-82CDAFF9B6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58001D47-5BFD-434F-8A67-82CDAFF9B6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DA1D7C-A264-48D0-9A58-8C05DD0AEC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DA1D7C-A264-48D0-9A58-8C05DD0AEC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DA1D7C-A264-48D0-9A58-8C05DD0AEC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DA1D7C-A264-48D0-9A58-8C05DD0AEC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79EC6C16-D615-4F2F-A15F-73B6EB037A3B}
+	EndGlobalSection
+EndGlobal

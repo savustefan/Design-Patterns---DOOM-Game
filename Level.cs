@@ -26,4 +26,24 @@ namespace Design_Patterns___DOOM_Game
             Console.WriteLine("Awakening of the DOOM Slayer: Level Mars");
         }
     }
+    public abstract class LevelFactory
+    {
+        public abstract GameLevel CreateLevel();
+    }
+
+    class E1M1Factory : LevelFactory
+    {
+        public override GameLevel CreateLevel()
+        {
+            return new E1M1();
+        }
+    }
+
+    class MarsFactory : LevelFactory
+    {
+        public override GameLevel CreateLevel()
+        {
+            return new Mars();
+        }
+    }
 }
